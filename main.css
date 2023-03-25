@@ -7,6 +7,7 @@ body {
 body #sidebar {
   background: #FFFFFF;
   width: 23vw;
+  height: 99vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -409,6 +410,84 @@ body #main-content #services #services-list .service-container #order-button {
   font-weight: 700;
   font-size: 0.9vw;
   color: rgba(255, 180, 0, 0.9490196078);
+}
+body #main-content #education {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  width: 75vw;
+}
+body #main-content #education #education-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2vw;
+  text-align: center;
+  color: #2B2B2B;
+}
+body #main-content #education #education-desc {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.1vw;
+  text-align: center;
+  text-transform: capitalize;
+  color: #767676;
+}
+body #main-content #education #education-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 2.3vw;
+  padding-left: 2.3vw;
+  padding-right: 2.3vw;
+  background: #FFFFFF;
+}
+body #main-content #education #education-list .education-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom-style: solid;
+  border-bottom-color: #F0F0F6;
+}
+body #main-content #education #education-list .education-container .education-container-leftside {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.1vw;
+}
+body #main-content #education #education-list .education-container .education-container-leftside .course-name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.35vw;
+  color: #2B2B2B;
+}
+body #main-content #education #education-list .education-container .education-container-leftside .date {
+  background: rgba(255, 180, 0, 0.9490196078);
+  padding: 0.2vw;
+  margin-left: 1.5vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.7vw;
+  color: #FFFFFF;
+}
+body #main-content #education #education-list .education-container .education-container-rightside .certificate-name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.35vw;
+  color: #2B2B2B;
+}
+body #main-content #education #education-list .education-container .education-container-rightside .certificate-desc {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.1vw;
+  text-transform: capitalize;
+  color: #767676;
 }
 
 /*# sourceMappingURL=main.css.map */
