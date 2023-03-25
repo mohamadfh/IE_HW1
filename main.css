@@ -1,4 +1,5 @@
 body {
+  margin: 0;
   background: #F0F0F6;
   display: flex;
   flex-wrap: wrap;
@@ -13,6 +14,7 @@ body #sidebar {
   padding: 3.7vw 3.3vw 1.8vw 3vw;
 }
 body #sidebar #profile {
+  width: 17vw;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -68,6 +70,36 @@ body #sidebar #profile #profile-icons .icon-container {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+body #sidebar #infos {
+  width: 17vw;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1.5vw;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 1.8vw;
+  border-bottom-style: solid;
+  border-bottom-color: #F0F0F6;
+}
+body #sidebar #infos .info-container {
+  width: inherit;
+  margin-bottom: 0.3vw;
+  margin-top: 0.3vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.1vw;
+}
+body #sidebar #infos .info-container .info-field {
+  padding-right: 0.4vw;
+  padding-left: 0.3vw;
+  background: rgba(255, 180, 0, 0.9490196078);
+}
+body #sidebar #infos .info-container #available-value {
+  color: greenyellow;
 }
 
 /*# sourceMappingURL=main.css.map */
