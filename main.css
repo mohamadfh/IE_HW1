@@ -11,7 +11,7 @@ body #sidebar {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  padding: 2.7vw 2.3vw 0.8vw 2vw;
+  padding: 2.2vw 1.8vw 0.3vw 1.5vw;
 }
 body #sidebar #profile {
   width: 17vw;
@@ -70,6 +70,10 @@ body #sidebar #profile #profile-icons .icon-container {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+body #sidebar #profile #profile-icons .icon-container img {
+  width: 0.9vw;
+  height: 0.9vw;
 }
 body #sidebar #infos {
   width: 17vw;
@@ -196,6 +200,43 @@ body #sidebar #contacts #contact-list #contact-values .contact-value {
   margin-bottom: 0.6vw;
   margin-top: 0.6vw;
   color: #767676;
+}
+body #sidebar #skills {
+  display: flex;
+  width: 17vw;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-bottom: 1.8vw;
+  padding-top: 1.8vw;
+  border-bottom-style: solid;
+  border-bottom-color: #F0F0F6;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.35vw;
+}
+body #sidebar #skills .skill-container {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.1vw;
+  margin-bottom: 0.6vw;
+  margin-top: 0.6vw;
+  display: flex;
+  flex-direction: row;
+  width: inherit;
+  color: #767676;
+}
+body #sidebar #skills .skill-container img {
+  margin-right: 1.1vw;
+  width: 1.2vw;
+  height: 1.2vw;
+}
+body #sidebar .button-container {
+  margin-top: 0.6vw;
+  width: 17vw;
+}
+body #sidebar .button-container img {
+  width: inherit;
 }
 
 /*# sourceMappingURL=main.css.map */
