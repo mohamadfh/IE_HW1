@@ -11,7 +11,7 @@ body #sidebar {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  padding: 3.7vw 3.3vw 1.8vw 3vw;
+  padding: 2.7vw 2.3vw 0.8vw 2vw;
 }
 body #sidebar #profile {
   width: 17vw;
@@ -99,7 +99,103 @@ body #sidebar #infos .info-container .info-field {
   background: rgba(255, 180, 0, 0.9490196078);
 }
 body #sidebar #infos .info-container #available-value {
-  color: greenyellow;
+  color: limegreen;
+}
+body #sidebar #langs {
+  display: flex;
+  width: 17vw;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-bottom: 1.8vw;
+  padding-top: 1.8vw;
+  border-bottom-style: solid;
+  border-bottom-color: #F0F0F6;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.35vw;
+}
+body #sidebar #langs #lang-list {
+  width: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body #sidebar #langs #lang-list #lang-fields {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  justify-content: flex-start;
+}
+body #sidebar #langs #lang-list #lang-fields .lang-field {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.1vw;
+  margin-bottom: 0.6vw;
+  margin-top: 0.6vw;
+  color: #767676;
+}
+body #sidebar #langs #lang-list #lang-values {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  justify-content: flex-start;
+}
+body #sidebar #langs #lang-list #lang-values .lang-value {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.1vw;
+  margin-bottom: 0.6vw;
+  margin-top: 0.6vw;
+  color: #767676;
+}
+body #sidebar #contacts {
+  display: flex;
+  width: 17vw;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-bottom: 1.8vw;
+  padding-top: 1.8vw;
+  border-bottom-style: solid;
+  border-bottom-color: #F0F0F6;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.35vw;
+}
+body #sidebar #contacts #contact-list {
+  width: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body #sidebar #contacts #contact-list #contact-fields {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  justify-content: flex-start;
+}
+body #sidebar #contacts #contact-list #contact-fields .contact-field {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.1vw;
+  margin-bottom: 0.6vw;
+  margin-top: 0.6vw;
+  color: #767676;
+}
+body #sidebar #contacts #contact-list #contact-values {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  justify-content: flex-start;
+}
+body #sidebar #contacts #contact-list #contact-values .contact-value {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.1vw;
+  margin-bottom: 0.6vw;
+  margin-top: 0.6vw;
+  color: #767676;
 }
 
 /*# sourceMappingURL=main.css.map */

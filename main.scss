@@ -13,7 +13,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    padding: 3.7vw 3.3vw 1.8vw 3vw;
+    padding: 2.7vw 2.3vw 0.8vw 2vw;
 
     #profile{
       width: 17vw;
@@ -103,10 +103,114 @@ body{
           background: variables.$color-yellow-1;
         }
         #available-value{
-          color:greenyellow;
+          color:limegreen;
         }
       }
+    }
+    #langs{
+      display: flex;
+      width: 17vw;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      padding-bottom: 1.8vw;
+      padding-top: 1.8vw;
+      border-bottom-style:  solid;
+      border-bottom-color: variables.$color-gray-2;
+      //font-family: 'Inter';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 1.35vw;
+      #lang-list{
+        width: inherit;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        #lang-fields{
 
+          display: flex;
+          flex-direction: column;
+          align-content: flex-start;
+          justify-content: flex-start;
+          .lang-field{
+            //font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.1vw;
+            margin-bottom: 0.6vw;
+            margin-top: 0.6vw;
+            color: variables.$color-gray-3
+          }
+        }
+        #lang-values{
+          display: flex;
+          flex-direction: column;
+          align-content: flex-start;
+          justify-content: flex-start;
+          .lang-value{
+            //font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.1vw;
+            margin-bottom: 0.6vw;
+            margin-top: 0.6vw;
+            color: variables.$color-gray-3
+
+          }
+        }
+      }
+    }
+    #contacts{
+      display: flex;
+      width: 17vw;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      padding-bottom: 1.8vw;
+      padding-top: 1.8vw;
+      border-bottom-style:  solid;
+      border-bottom-color: variables.$color-gray-2;
+      //font-family: 'Inter';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 1.35vw;
+      #contact-list{
+        width: inherit;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        #contact-fields{
+
+          display: flex;
+          flex-direction: column;
+          align-content: flex-start;
+          justify-content: flex-start;
+          .contact-field{
+            //font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.1vw;
+            margin-bottom: 0.6vw;
+            margin-top: 0.6vw;
+            color: variables.$color-gray-3
+          }
+        }
+        #contact-values{
+          display: flex;
+          flex-direction: column;
+          align-content: flex-start;
+          justify-content: flex-start;
+          .contact-value{
+            //font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.1vw;
+            margin-bottom: 0.6vw;
+            margin-top: 0.6vw;
+            color: variables.$color-gray-3
+          }
+        }
+      }
     }
   }
 }
