@@ -266,7 +266,7 @@ body{
       position: relative;
       display: flex;
       background: variables.$color-white-1;
-      width: 70vw;
+      width: 75vw;
       height: 37vw;
       flex-direction: row;
       justify-content: center;
@@ -347,5 +347,80 @@ body{
       }
     }
 
+    #services{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-content: center;
+      width: 75vw;
+      #services-title{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2vw;
+        text-align: center;
+        color: variables.$color-black-4;
+      }
+      #services-desc{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.1vw;
+        text-align: center;
+        text-transform: capitalize;
+        color: variables.$color-gray-3;
+      }
+      #services-list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+
+        .service-container{
+
+          display: flex;
+          flex-direction: column;
+          background: variables.$color-white-1;
+          width: 24vw;
+          align-items: center;
+          justify-content: flex-start;
+          margin-bottom: 1vw;
+          padding-bottom: 2vw;
+          padding-top: 2vw;
+          .service-desc{
+            text-transform: capitalize;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.1vw;
+            color: variables.$color-gray-3;
+          }
+          .service-title{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 1.35vw;
+            color: variables.$color-black-4;
+          }
+          .service-icon-container{
+            height: 5.7vw;
+            width: 5.7vw;
+            img{
+              width: inherit;
+              height: inherit;
+            }
+          }
+          #order-button{
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 0.9vw;
+            color: variables.$color-yellow-1;
+          }
+        }
+      }
+
+    }
   }
 }
