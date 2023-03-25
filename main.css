@@ -3,6 +3,7 @@ body {
   background: #F0F0F6;
   display: flex;
   flex-direction: row;
+  padding-bottom: 6.5vw;
 }
 body #sidebar {
   background: #FFFFFF;
@@ -482,6 +483,84 @@ body #main-content #education #education-list .education-container .education-co
   color: #2B2B2B;
 }
 body #main-content #education #education-list .education-container .education-container-rightside .certificate-desc {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.1vw;
+  text-transform: capitalize;
+  color: #767676;
+}
+body #main-content #work {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  width: 75vw;
+}
+body #main-content #work #work-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2vw;
+  text-align: center;
+  color: #2B2B2B;
+}
+body #main-content #work #work-desc {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.1vw;
+  text-align: center;
+  text-transform: capitalize;
+  color: #767676;
+}
+body #main-content #work #work-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 2.3vw;
+  padding-left: 2.3vw;
+  padding-right: 2.3vw;
+  background: #FFFFFF;
+}
+body #main-content #work #work-list .work-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom-style: solid;
+  border-bottom-color: #F0F0F6;
+}
+body #main-content #work #work-list .work-container .work-container-leftside {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.1vw;
+}
+body #main-content #work #work-list .work-container .work-container-leftside .job-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.35vw;
+  color: #2B2B2B;
+}
+body #main-content #work #work-list .work-container .work-container-leftside .date {
+  background: rgba(255, 180, 0, 0.9490196078);
+  padding: 0.2vw;
+  margin-left: 1.5vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.7vw;
+  color: #FFFFFF;
+}
+body #main-content #work #work-list .work-container .work-container-rightside .certificate-name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.35vw;
+  color: #2B2B2B;
+}
+body #main-content #work #work-list .work-container .work-container-rightside .certificate-desc {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
