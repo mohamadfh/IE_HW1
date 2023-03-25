@@ -1,3 +1,73 @@
-
+body {
+  background: #F0F0F6;
+  display: flex;
+  flex-wrap: wrap;
+}
+body #sidebar {
+  background: #FFFFFF;
+  width: 23vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 3.7vw 3.3vw 1.8vw 3vw;
+}
+body #sidebar #profile {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  border-bottom-style: solid;
+  border-bottom-color: #F0F0F6;
+}
+body #sidebar #profile .avatar-container {
+  height: 11.3vw;
+  width: 11.3vw;
+  position: relative;
+  margin-bottom: 1.1vw;
+}
+body #sidebar #profile #avatar {
+  height: inherit;
+  width: inherit;
+  border-radius: 50%;
+}
+body #sidebar #profile #available {
+  border-radius: 50%;
+  top: 75%;
+  right: 0;
+  position: absolute;
+}
+body #sidebar #profile #profile-name {
+  margin-top: 1.1vw;
+  margin-bottom: 1.1vw;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.3vw;
+  color: #2B2B2B;
+}
+body #sidebar #profile #profile-title {
+  margin-bottom: 1.1vw;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  color: #767676;
+}
+body #sidebar #profile #profile-icons {
+  padding-bottom: 1.8vw;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+body #sidebar #profile #profile-icons .icon-container {
+  margin: 0.5vw;
+  background: rgba(255, 180, 0, 0.9490196078);
+  border-radius: 50%;
+  width: 1.8vw;
+  height: 1.8vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /*# sourceMappingURL=main.css.map */
