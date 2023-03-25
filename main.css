@@ -34,6 +34,8 @@ body #sidebar #profile #avatar {
   border-radius: 50%;
 }
 body #sidebar #profile #available {
+  height: 4vw;
+  width: 4vw;
   border-radius: 50%;
   top: 75%;
   right: 0;
@@ -42,6 +44,7 @@ body #sidebar #profile #available {
 body #sidebar #profile #profile-name {
   margin-top: 1.1vw;
   margin-bottom: 1.1vw;
+  font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 1.3vw;
@@ -49,6 +52,7 @@ body #sidebar #profile #profile-name {
 }
 body #sidebar #profile #profile-title {
   margin-bottom: 1.1vw;
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 1vw;
@@ -93,6 +97,7 @@ body #sidebar #infos .info-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 1.1vw;
@@ -115,6 +120,7 @@ body #sidebar #langs {
   padding-top: 1.8vw;
   border-bottom-style: solid;
   border-bottom-color: #F0F0F6;
+  font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 1.35vw;
@@ -132,6 +138,7 @@ body #sidebar #langs #lang-list #lang-fields {
   justify-content: flex-start;
 }
 body #sidebar #langs #lang-list #lang-fields .lang-field {
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 1.1vw;
@@ -146,6 +153,7 @@ body #sidebar #langs #lang-list #lang-values {
   justify-content: flex-start;
 }
 body #sidebar #langs #lang-list #lang-values .lang-value {
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 1.1vw;
@@ -163,6 +171,7 @@ body #sidebar #contacts {
   padding-top: 1.8vw;
   border-bottom-style: solid;
   border-bottom-color: #F0F0F6;
+  font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 1.35vw;
@@ -180,6 +189,7 @@ body #sidebar #contacts #contact-list #contact-fields {
   justify-content: flex-start;
 }
 body #sidebar #contacts #contact-list #contact-fields .contact-field {
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 1.1vw;
@@ -194,6 +204,7 @@ body #sidebar #contacts #contact-list #contact-values {
   justify-content: flex-start;
 }
 body #sidebar #contacts #contact-list #contact-values .contact-value {
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 1.1vw;
@@ -211,6 +222,7 @@ body #sidebar #skills {
   padding-top: 1.8vw;
   border-bottom-style: solid;
   border-bottom-color: #F0F0F6;
+  font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 1.35vw;
