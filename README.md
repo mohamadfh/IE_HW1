@@ -4,6 +4,15 @@ this is an online resume template.
 
 
 
+
+
+
+
+
+
+
+
+
 technology and frameworks used in this template:
 
   1- SASS
